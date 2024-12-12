@@ -1,0 +1,151 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+
+.left-box {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.left-box h1 {
+    font-weight: bold;
+    font-size: 64px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.left-box p{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.left-aligned-text {
+    align-self: flex-start;
+    text-align: left;
+    width: 100%;
+}
+
+.left-box img {
+    max-width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.right-box {
+    width: 70%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.right-box h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-align: center;
+}
+
+.left-box p em {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.amount-label {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.currency-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-control {
+    font-size: 1.5rem;
+}
+
+.flip-button {
+    text-align: center;
+    margin: 0 10px;
+    padding: 5px;
+    font-size: 15 px;
+}
+
+#flip-button {
+    object-fit: fill;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#flip-arbitrage-button {
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.arbitrage-block {
+    margin-top: 20px;
+}
+
+#arbitrage-results {
+    margin-top: 15px;
+    border: 1px solid #ddd;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.result {
+    font-size: 2rem;
+    color: #28a745;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.custom-message {
+    text-align: center;
+    color: #6c757d;
+    opacity: 0.65;
+}
+
+.small-text {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.result-value{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
