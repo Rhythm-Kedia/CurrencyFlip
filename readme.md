@@ -79,6 +79,6 @@ Obtained from - **jsDelivr**.
 
 ## Credits
 
-- **Developer:** Rhythm Kedia - 24b1071
+- **Developer:** Rhythm Kedia
 - **Frameworks and Libraries:** Bootstrap, Select2, jsDelivr, jQuery
 - **API:** ExchangeRate-API
